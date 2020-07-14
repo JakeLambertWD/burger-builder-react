@@ -1,0 +1,8 @@
+CSS Modules
+    npm run eject
+
+config > webpack.config.dev.js & webpack.config.prod.js
+    
+add to both files: localIdentName: '[name]__[local]__[hash:base64:5]'
+
+
