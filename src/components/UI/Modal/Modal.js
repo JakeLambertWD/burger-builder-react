@@ -5,7 +5,7 @@ import Backdrop from '../Backdrop/Backdrop';
 class Modal extends Component {
     // for optimisation, so we don't render uneccessary
     shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.show !== this.props.show;
+        return nextProps.show !== this.props.show || nextProps.children !== this.props.children;
     }
 
     componentWillUpdate() {
@@ -13,7 +13,7 @@ class Modal extends Component {
     }
 
     render () {
-        return (
+        return (   
             <Fragment>
             <Backdrop show={this.props.show} clicked={this.props.modalClosed}/>
             <div 

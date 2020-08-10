@@ -1,10 +1,11 @@
 {
-  "homepage": "https://github.com/JakeLambertWD/burger-builder-react.git",
+  "homepage": "https://github.com/JakeLambertWD/acessing-a-server.git",
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
+    "axios": "^0.19.2",
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
